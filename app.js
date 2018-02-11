@@ -26,7 +26,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 var query = "SELECT * FROM findadoc.categories";
   client.execute(query, [], function(err, results){
     if(err){
-      res.status(404).send({msg: err});
+      // res.status(404).send({msg: err});
+      console.log(err);
     } else {
      app.locals.cats = results.rows;
     }
