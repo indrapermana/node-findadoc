@@ -1,12 +1,12 @@
 {
-  "name": "findadoc",
+  "name": "find-doctor",
   "version": "1.0.0",
   "description": "Doctor directory",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brad Traversy",
+  "author": "Indra Permana",
   "license": "ISC",
   "dependencies": {
     "express": "*",
